@@ -1,11 +1,10 @@
 import React from "react";
-import Labels from "../components/Labels";
 
 const GlobalContext = React.createContext({
   monthIndex: 0,
   setMonthIndex: (index) => {},
   smallCalendarMonth: 0,
-  smallCalendarMonth: (index) => {},
+  setSmallCalendarMonth: (index) => {},
   daySelected: null,
   setDaySelected: (day) => {},
   showEventModal: false,
